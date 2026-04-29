@@ -307,6 +307,7 @@ background-color: rgb(19, 12, 12);    padding: 40px;
     border-radius: 20px;
     color: rgb(19, 19, 222);
     font-size: 20px;
+    border: 1px solid snow;
     
 }
 .Umars6a{
@@ -316,6 +317,7 @@ background-color: rgb(19, 12, 12);    padding: 40px;
     border-radius: 20px;
     color: rgb(19, 19, 222);
     font-size: 20px;
+    border: 1px solid snow;
     
 }
 .Umars6b{
@@ -326,6 +328,7 @@ background-color: rgb(19, 12, 12);    padding: 40px;
     padding: 40px;
     border-radius: 20px;
     color: rgb(121, 5, 102);
+    border: 1px solid snow;
     
 }
 .Umarsec6e{
@@ -333,6 +336,7 @@ background-color: rgb(19, 12, 12);    padding: 40px;
     flex-wrap: nowrap;
     color: white;
     justify-content: space-around;
+    
 }
 .Umarsec6e i{
     color: rgb(220, 11, 153);
@@ -414,6 +418,7 @@ input{
     background-color: rgb(14, 1, 14);
     border-radius: 20px;
     padding: 50px;
+    border: 1px solid snow;
 
 }
 .Umarsec9a button{
