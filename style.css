@@ -127,7 +127,7 @@ h1{
 }
 .Umarcircle{
     text-align: center;
-    margin-left:110px;
+    margin-left:50px;
     margin-top: -20px;
    
     height: 400px;
@@ -458,5 +458,298 @@ input{
     width: 200px;
     border-radius: 20px;
     border:#494f49 2px solid;
+}
 
+.UmarTeamwork {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin-left: -130px;
+}
+
+
+/* Section */
+.main {
+  width: 50%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.subtitle {
+  text-align: center;
+  color: #4fd1c5;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.title span {
+  background: linear-gradient(90deg, #4fd1c5, #8b5cf6);
+  background-clip: text;
+  color: transparent;
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  margin-left: 20px;
+  border-left: 2px solid #2a2f45;
+}
+
+/* Item */
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 40px;
+}
+
+/* Dots */
+.dot {
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.green {
+  background: #4fd1c5;
+}
+
+.blue {
+  background: #60a5fa;
+}
+
+.pink {
+  background: #f472b6;
+}
+
+/* Card */
+.card {
+  background: #111827;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #2a2f45;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  background: #111827;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #2a2f45;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  border-color: #4fd1c5;
+  /* box-shadow: 0 10px 30px rgba(79, 209, 197, 0.3); */
+}
+
+/* Header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.col1 {
+  color: #4fd1c5;
+  ;
+  margin-bottom: 10px;
+}
+
+.col2 {
+  color: #60a5fa;
+  margin-bottom: 10px;
+}
+
+.col3 {
+  color: #f472b6;
+  margin-bottom: 10px;
+}
+
+
+
+.tags span {
+  display: inline-block;
+  margin: 5px 5px 0 0;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: #1f2937;
+  font-size: 12px;
+  border: 1px solid #374151;
+}
+
+
+
+body {
+  background: #0b0f1a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.title span {
+  background: linear-gradient(90deg, #4fd1c5, #8b5cf6);
+  background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #aaa;
+}
+
+/* Layout */
+.contact-container {
+  display: flex;
+  gap: 30px;
+  width: 85%;
+  margin: auto;
+}
+
+/* Cards */
+.contact-left,
+.contact-right {
+  flex: 1;
+  background: #111827;
+  padding: 25px;
+  border-radius: 20px;
+  border: 1px solid #2a2f45;
+  transition: 0.3s;
+}
+
+.contact-left:hover,
+.contact-right:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(79, 209, 197, 0.2);
+}
+
+/* Contact Card */
+.contact-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1f2937;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-card:hover {
+  transform: translateX(10px);
+  background: #273549;
+}
+
+/* Icons */
+.icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.linkedin {
+  background: #0077b5;
+}
+
+.github {
+  background: #333;
+}
+
+.email {
+  background: #4fd1c5;
+  color: black;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea {
+  background: #1f2937;
+  border: 1px solid #2a2f45;
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Focus animation */
+input:focus,
+textarea:focus {
+  border-color: #4fd1c5;
+  box-shadow: 0 0 10px #4fd1c5;
+}
+
+/* Button */
+.contact-right button {
+  background: linear-gradient(90deg, #4fd1c5, #22c55e);
+  border: none;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #4fd1c5;
+}
+
+.last {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #111827;
+  align-items: center;
+  padding: 10px;
+  margin-right: 400px;
+
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  margin-left: 200px;
+}
+
+.paragraph {
+  margin-right: 200PX;
+}
+
+.name p {
+  font-size: 40px;
+  color: red;
 }
